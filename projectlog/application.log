@@ -1,0 +1,15 @@
+2023-01-20 14:07:17,028  INFO [main] BaseClass:29 - ::::Maximizing Window::::
+2023-01-20 14:07:17,179  INFO [main] BaseClass:34 - :::::Applying Waits::::
+2023-01-20 14:07:17,206  INFO [main] BaseClass:17 - Scenario Executing Start :-Successful Login with Valid Credentials
+2023-01-20 14:07:27,294  INFO [main] BaseClass:37 - After login Title is  :- Dashboard / nopCommerce administration
+2023-01-20 14:07:29,042  INFO [main] BaseClass:50 - After logout Title is :- Your store. Login
+2023-01-20 14:07:29,049  INFO [main] BaseClass:37 - After login Title is  :- Your store. Login
+2023-01-20 14:07:47,645  INFO [main] BaseClass:29 - ::::Maximizing Window::::
+2023-01-20 14:07:47,798  INFO [main] BaseClass:34 - :::::Applying Waits::::
+2023-01-20 14:07:47,826  INFO [main] BaseClass:17 - Scenario Executing Start :-Login Data Driven
+2023-01-20 14:07:56,005  INFO [main] BaseClass:37 - After login Title is  :- Dashboard / nopCommerce administration
+2023-01-20 14:07:57,743  INFO [main] BaseClass:50 - After logout Title is :- Your store. Login
+2023-01-20 14:08:16,070  INFO [main] BaseClass:29 - ::::Maximizing Window::::
+2023-01-20 14:08:16,224  INFO [main] BaseClass:34 - :::::Applying Waits::::
+2023-01-20 14:08:16,251  INFO [main] BaseClass:17 - Scenario Executing Start :-Login Data Driven
+2023-01-20 14:08:19,471  INFO [main] BaseClass:37 - After login Title is  :- Your store. Login
