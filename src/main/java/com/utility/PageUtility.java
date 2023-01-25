@@ -83,6 +83,7 @@ public class PageUtility extends BaseClass  {
 		Select select= new Select(dropdown);
 		select.selectByVisibleText(option);
 		log.info("Dropdown Total element count :- "+select.getOptions().size());
+		System.out.println(select.getOptions().size());
 		
 	}
 	

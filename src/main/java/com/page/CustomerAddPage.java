@@ -53,6 +53,7 @@ public class CustomerAddPage extends CustomerAddRepo {
 	public void setLName(String lName)
 	{
 		pUtils.sendKeys(txtLname, lName);
+		
 	}
 	
 	
