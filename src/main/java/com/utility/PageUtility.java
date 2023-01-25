@@ -18,20 +18,19 @@ public class PageUtility extends BaseClass  {
 	
 	
 	//for driver initializing
-	public static WebDriver driver=webDriver.get();
-	//explicit wait for find out the element maximum time is 
+	public  WebDriver driver=webDriver.get();
 	
-	public static WebDriverWait wait = new WebDriverWait(driver, 30);
+	//explicit wait for find out the element maximum time is 
+	public  WebDriverWait wait = new WebDriverWait(driver, 30);
 	
 	public PageUtility(WebDriver driver)
 	{
-		PageUtility.driver=driver;
+		this.driver=driver;
 		
-		
-	}
+		}
 	
 	
-	public static String getText(WebElement element)
+	public String getText(WebElement element)
 	{
 
 		wait.until(ExpectedConditions.visibilityOf(element));
@@ -42,7 +41,7 @@ public class PageUtility extends BaseClass  {
 		
 	}
 	
-	public static void sendKeys(WebElement element, String value)
+	public void sendKeys(WebElement element, String value)
 	{
 
 		wait.until(ExpectedConditions.visibilityOf(element));
@@ -50,20 +49,20 @@ public class PageUtility extends BaseClass  {
 		element.sendKeys(value);
 	}
 	
-	public static void sendKeys(By by, String value)// method overloading
+	public void sendKeys(By by, String value)// method overloading
 	{
 		
 		driver.findElement(by).clear();
 		driver.findElement(by).sendKeys(value);
 	}
-	public static void click(WebElement element , WebDriver driver)
+	public void click(WebElement element , WebDriver driver)
 	{
 		
 		wait.until(ExpectedConditions.visibilityOf(element));
 		element.click();
 	}
 	
-	public static void selectRadioButton(List<WebElement> element, String value)
+	public void selectRadioButton(List<WebElement> element, String value)
 	{
 		wait.until(ExpectedConditions.visibilityOfAllElements(element));
 		for(WebElement ele:element)
@@ -78,7 +77,7 @@ public class PageUtility extends BaseClass  {
 		
 	}
 	
-	public static void selectOptionFromDropDown(WebElement dropdown, String option)
+	public void selectOptionFromDropDown(WebElement dropdown, String option)
 	{
 		wait.until(ExpectedConditions.visibilityOf(dropdown));
 		Select select= new Select(dropdown);
@@ -87,7 +86,7 @@ public class PageUtility extends BaseClass  {
 		
 	}
 	
-	public static void switchToWindow(WebDriver driver, String parentWin, Set<String> allWin, String title )
+	public void switchToWindow(WebDriver driver, String parentWin, Set<String> allWin, String title )
 	{
 
 		for(String windows:allWin)
@@ -107,14 +106,14 @@ public class PageUtility extends BaseClass  {
 			}
 		}
 	
-	public static void alertAccept(WebDriver driver) throws InterruptedException
+	public void alertAccept(WebDriver driver) throws InterruptedException
 	{
 		Alert al=driver.switchTo().alert();
 		Thread.sleep(2000);
 		al.accept();
 	}
 	
-	public static void radioButton(List<WebElement> radio, String text)
+	public void radioButton(List<WebElement> radio, String text)
 	{
 		wait.until(ExpectedConditions.visibilityOfAllElements(radio));
 		for (WebElement  element: radio) {

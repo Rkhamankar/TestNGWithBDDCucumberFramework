@@ -24,6 +24,7 @@ public class Util extends BaseClass {
 		return ((TakesScreenshot) webDriver.get()).getScreenshotAs(OutputType.BYTES);
 	}
 	
+	//creating a read property file method or code
 	public static String readProperties(String key)
 	{
 		String path = System.getProperty("user.dir")+"/src/main/resources/config.properties";

@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 90.535 s <<< FAILURE! - in TestSuite
-com.runner.RunnerClass.runScenario["Login Data Driven", "Optional[Login Page]"](3)  Time elapsed: 21.942 s  <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 66.709 s <<< FAILURE! - in TestSuite
+com.runner.RunnerClass.runScenario["Login Data Driven", "Optional[Login Page]"](4)  Time elapsed: 4.674 s  <<< FAILURE!
 java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
 

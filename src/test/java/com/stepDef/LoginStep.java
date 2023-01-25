@@ -11,6 +11,7 @@ public class LoginStep extends BaseClass {
 	
 	LoginPage lp = new LoginPage();
 	
+	//Implementing all d step from feature file
 	@Given("User launch application")
 	public void user_launch_application() {
 	    

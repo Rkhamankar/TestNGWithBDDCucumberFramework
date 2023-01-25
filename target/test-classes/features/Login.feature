@@ -26,7 +26,7 @@ Scenario: Successful Login with Valid Credentials
    When   User enters Email as "<email>"  and Password as "<password>"
    And    Click on Login
    Then   Page title should be "<Title>"
-   When  User click on Log out link
+   When   User click on Log out link
   
   
    

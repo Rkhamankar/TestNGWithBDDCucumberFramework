@@ -8,8 +8,9 @@ import io.cucumber.java.Scenario;
 
 public class Hooks extends BaseClass {
 	
-	
+	//every test scenario execution before this method is executed
 
+	//just like @beforeMethod
 	@Before
 	public void beforeScenario(Scenario scenario)
 	{
@@ -18,7 +19,7 @@ public class Hooks extends BaseClass {
 		
 	}
 
-	
+	//just like @afterMethod
 	@After
 	public void afterScenario(Scenario scenario)
 	{

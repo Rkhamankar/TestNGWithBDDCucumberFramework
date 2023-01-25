@@ -12,10 +12,13 @@ import com.utility.Util;
 
 
 public class BaseClass {
-	
+	// I use LocalThread class for storing W
    public static ThreadLocal<WebDriver> webDriver = new ThreadLocal<WebDriver>();
+  
    public static WebDriver driver=null;
+   
    public final static int TIMEOUT = 40;
+   
    public static Logger log=Logger.getLogger(BaseClass.class);
 	
 	public static void launchDriver()
@@ -24,7 +27,6 @@ public class BaseClass {
 		{
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();
-		//driver.get("https://www.google.com/");
 		
 		log.info("::::Maximizing Window::::");
 		driver.manage().window().maximize();
@@ -44,7 +46,6 @@ public class BaseClass {
 		{
 			System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 			WebDriver driver = new FirefoxDriver();
-			//driver.get("https://www.google.com/");
 			
 			log.info("::::Maximizing Window::::");
 			driver.manage().window().maximize();

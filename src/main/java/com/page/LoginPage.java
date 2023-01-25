@@ -8,6 +8,7 @@ import com.utility.PageUtility;
 
 public class LoginPage extends LoginRepo {
 	
+	//initializing webElement by using constructor
 	public LoginPage()
 	{
 		//here I take <BaseClass.webDriver.get()> reference object for (return)
@@ -16,10 +17,15 @@ public class LoginPage extends LoginRepo {
 		
 	}
 	
+
+	//for accessing customize method from page utility class
+	PageUtility pUtils= new PageUtility(BaseClass.webDriver.get());
+	
+	//Utilization of webElement
 	public void setUserName(String uname)
 	{
 		 setTxtEmail(getTxtEmail());//storing webElement
-		 PageUtility.sendKeys(getTxtEmail(), uname);
+		 pUtils.sendKeys(getTxtEmail(), uname);
 		
 	}
 	
@@ -27,19 +33,19 @@ public class LoginPage extends LoginRepo {
 	{
 		
 		setTxtPassword(getTxtPassword());
-		PageUtility.sendKeys(getTxtPassword(), pass);
+		pUtils.sendKeys(getTxtPassword(), pass);
 	}
 	
 	public void clickLogin()
 	{
 		
-		PageUtility.click(btnLogin, BaseClass.webDriver.get());
+		pUtils.click(btnLogin, BaseClass.webDriver.get());
 		
 	}
 	
 	public void clickLogout()
 	{
-		PageUtility.click(btnLogout, BaseClass.webDriver.get());
+		pUtils.click(btnLogout, BaseClass.webDriver.get());
 		
 	}
 
