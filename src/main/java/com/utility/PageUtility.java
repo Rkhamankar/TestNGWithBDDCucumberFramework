@@ -84,7 +84,7 @@ public class PageUtility extends BaseClass  {
 		select.selectByVisibleText(option);
 		log.info("Dropdown Total element count :- "+select.getOptions().size());
 		
-		
+		System.out.println();
 	}
 	
 	public void switchToWindow(WebDriver driver, String parentWin, Set<String> allWin, String title )
