@@ -125,3 +125,202 @@ nopCommerce version 4.60.0
 2023-01-25 18:39:05,646  INFO [main] BaseClass:33 - :::::Applying Waits::::
 2023-01-25 18:39:05,674  INFO [main] BaseClass:17 - Scenario Executing Start :-Login Data Driven
 2023-01-25 18:39:07,971  INFO [main] BaseClass:37 - After login Title is  :- Your store. Login
+2023-01-27 14:14:28,400  INFO [main] BaseClass:31 - ::::Maximizing Window::::
+2023-01-27 14:14:28,542  INFO [main] BaseClass:36 - :::::Applying Waits::::
+2023-01-27 14:14:28,572  INFO [main] BaseClass:18 - Scenario Executing Start :-Add new Customer
+2023-01-27 14:14:37,404  INFO [main] BaseClass:38 - After login Title is  :- Dashboard / nopCommerce administration
+2023-01-27 14:14:37,550  INFO [main] BaseClass:21 - Title of the page :- Dashboard / nopCommerce administration
+2023-01-27 14:14:42,863  INFO [main] BaseClass:35 - Title of the page :- Add a new customer / nopCommerce administration
+2023-01-27 14:14:46,640  INFO [main] BaseClass:85 - Dropdown Total element count :- 3
+2023-01-27 14:14:53,414  INFO [main] BaseClass:74 - Actual message is display :- John Smith
+Logout
+Dashboard
+Catalog
+Sales
+Customers
+Customers
+Customer roles
+Online customers
+Vendors
+Activity log
+Activity Types
+GDPR requests (log)
+Promotions
+Content management
+Configuration
+System
+Reports
+Help
+×
+The new customer has been added successfully.
+Customers
+Add new
+Export
+  Search
+Email
+First name
+Last name
+Date of birth
+Month
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Day
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+Registration date from
+Registration date to
+Last activity from
+Last activity to
+Company
+IP address
+Customer roles
+Registered
+Search
+Learn more about customers
+Email Name Customer roles Company name Active Edit
+RaOne@gmail.com RaOne Pathan Registered Berojgar Bharat Pvt Ltd Edit
+kiyjcycyhjc676008@gmail.com Virat Kohli Registered Indian Cricket Team Edit
+victoria_victoria@nopCommerce.com Victoria Terces Registered Edit
+brenda_lindgren@nopCommerce.com Brenda Lindgren Registered Edit
+james_pan@nopCommerce.com James Pan Registered Edit
+arthur_holmes@nopCommerce.com Arthur Holmes Registered Edit
+steve_gates@nopCommerce.com Steve Gates Registered Edit
+admin@yourStore.com John Smith Administrators, Forum Moderators, Registered Edit
+1
+Show
+7
+15
+20
+50
+100
+items
+1-8 of 8 items
+Powered by nopCommerce
+Friday, January 27, 2023 12:44 AM
+nopCommerce version 4.60.0
+2023-01-27 14:15:00,862  INFO [main] BaseClass:31 - ::::Maximizing Window::::
+2023-01-27 14:15:00,996  INFO [main] BaseClass:36 - :::::Applying Waits::::
+2023-01-27 14:15:01,025  INFO [main] BaseClass:18 - Scenario Executing Start :-Successful Login with Valid Credentials
+2023-01-27 14:16:01,708  INFO [main] BaseClass:31 - ::::Maximizing Window::::
+2023-01-27 14:16:01,846  INFO [main] BaseClass:36 - :::::Applying Waits::::
+2023-01-27 14:16:01,876  INFO [main] BaseClass:18 - Scenario Executing Start :-Login Data Driven
+2023-01-27 14:16:44,333  INFO [main] BaseClass:38 - After login Title is  :- Dashboard / nopCommerce administration
+2023-01-27 14:16:46,137  INFO [main] BaseClass:51 - After logout Title is :- Your store. Login
+2023-01-27 14:17:04,387  INFO [main] BaseClass:31 - ::::Maximizing Window::::
+2023-01-27 14:17:04,532  INFO [main] BaseClass:36 - :::::Applying Waits::::
+2023-01-27 14:17:04,563  INFO [main] BaseClass:18 - Scenario Executing Start :-Login Data Driven
+2023-01-27 14:17:07,845  INFO [main] BaseClass:38 - After login Title is  :- Your store. Login
+2023-01-27 14:33:25,837  INFO [main] BaseClass:31 - ::::Maximizing Window::::
+2023-01-27 14:33:25,983  INFO [main] BaseClass:36 - :::::Applying Waits::::
+2023-01-27 14:33:26,012  INFO [main] BaseClass:18 - Scenario Executing Start :-Add new Customer
+2023-01-27 14:33:36,175  INFO [main] BaseClass:38 - After login Title is  :- Dashboard / nopCommerce administration
+2023-01-27 14:33:36,321  INFO [main] BaseClass:21 - Title of the page :- Dashboard / nopCommerce administration
+2023-01-27 14:33:44,601  INFO [main] BaseClass:35 - Title of the page :- Add a new customer / nopCommerce administration
+2023-01-27 14:33:48,249  INFO [main] BaseClass:85 - Dropdown Total element count :- 3
+2023-01-27 14:33:54,198  INFO [main] BaseClass:74 - Actual message is display :- John Smith
+Logout
+Dashboard
+Catalog
+Sales
+Customers
+Customers
+Customer roles
+Online customers
+Vendors
+Activity log
+Activity Types
+GDPR requests (log)
+Promotions
+Content management
+Configuration
+System
+Reports
+Help
+Add a new customer back to customer list
+Save
+Save and Continue Edit
+Email is already registered
+Customer info
+Email
+Password
+First name
+Last name
+Gender
+Male
+Female
+Date of birth
+Company name
+Is tax exempt
+Newsletter
+Customer roles
+Registered
+*
+Manager of vendor
+Not a vendor
+Vendor 1
+Vendor 2
+Note: if you have a vendor associated with this customer, then also ensure it is in "Vendors" customer role.
+Active
+Admin comment
+This is for automation
+Powered by nopCommerce
+Friday, January 27, 2023 1:03 AM
+nopCommerce version 4.60.0
+2023-01-27 14:33:54,563  INFO [main] BaseClass:30 - Scenario Executing Finish :-Add new Customer
+2023-01-27 14:33:56,671  INFO [main] BaseClass:31 - ::::Maximizing Window::::
+2023-01-27 14:33:56,816  INFO [main] BaseClass:36 - :::::Applying Waits::::
+2023-01-27 14:33:56,845  INFO [main] BaseClass:18 - Scenario Executing Start :-Successful Login with Valid Credentials
+2023-01-27 14:34:05,194  INFO [main] BaseClass:38 - After login Title is  :- Dashboard / nopCommerce administration
+2023-01-27 14:34:06,948  INFO [main] BaseClass:51 - After logout Title is :- Your store. Login
+2023-01-27 14:34:06,953  INFO [main] BaseClass:38 - After login Title is  :- Your store. Login
+2023-01-27 14:34:06,954  INFO [main] BaseClass:30 - Scenario Executing Finish :-Successful Login with Valid Credentials
+2023-01-27 14:34:09,046  INFO [main] BaseClass:31 - ::::Maximizing Window::::
+2023-01-27 14:34:09,189  INFO [main] BaseClass:36 - :::::Applying Waits::::
+2023-01-27 14:34:09,217  INFO [main] BaseClass:18 - Scenario Executing Start :-Login Data Driven
+2023-01-27 14:34:18,825  INFO [main] BaseClass:38 - After login Title is  :- Dashboard / nopCommerce administration
+2023-01-27 14:34:20,530  INFO [main] BaseClass:51 - After logout Title is :- Your store. Login
+2023-01-27 14:34:20,532  INFO [main] BaseClass:30 - Scenario Executing Finish :-Login Data Driven
+2023-01-27 14:34:38,777  INFO [main] BaseClass:31 - ::::Maximizing Window::::
+2023-01-27 14:34:38,924  INFO [main] BaseClass:36 - :::::Applying Waits::::
+2023-01-27 14:34:38,951  INFO [main] BaseClass:18 - Scenario Executing Start :-Login Data Driven
+2023-01-27 14:34:42,563  INFO [main] BaseClass:38 - After login Title is  :- Your store. Login
+2023-01-27 14:34:42,709  INFO [main] BaseClass:30 - Scenario Executing Finish :-Login Data Driven

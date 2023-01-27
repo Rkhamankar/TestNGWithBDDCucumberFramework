@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="66.709" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="105.984" tests="4" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire8581665296990745446\surefirebooter2197018088302750619.jar C:\Users\Admin\AppData\Local\Temp\surefire8581665296990745446 2023-01-25T18-38-06_250-jvmRun1 surefire9047609643617818949tmp surefire_03024993367304996476tmp"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire7351186541572243624\surefirebooter5360963140023774863.jar C:\Users\Admin\AppData\Local\Temp\surefire7351186541572243624 2023-01-27T14-33-17_837-jvmRun1 surefire544816217939254927tmp surefire_0503439615314069356tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Admin\eclipse-OJT(SELENIUM)\TestNGWithCucumber\target\test-classes;C:\Users\Admin\eclipse-OJT(SELENIUM)\TestNGWithCucumber\target\classes;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-testng\6.9.1\cucumber-testng-6.9.1.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-core\6.9.1\cucumber-core-6.9.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin\6.9.1\cucumber-gherkin-6.9.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.1\cucumber-gherkin-messages-6.9.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-plugin\6.9.1\cucumber-plugin-6.9.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\docstring\6.9.1\docstring-6.9.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Admin\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Admin\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Admin\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Admin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-java\6.9.1\cucumber-java-6.9.1.jar;C:\Users\Admin\.m2\repository\tech\grasshopper\extentreports-cucumber6-adapter\2.13.0\extentreports-cucumber6-adapter-2.13.0.jar;C:\Users\Admin\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Admin\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Admin\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Admin\.m2\repository\tech\grasshopper\extent-pdf-report\2.7.0\extent-pdf-report-2.7.0.jar;C:\Users\Admin\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.10.0\cucumber-pdf-report-2.10.0.jar;C:\Users\Admin\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\Admin\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\Admin\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\Admin\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\Admin\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Admin\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\Admin\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\Admin\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\Admin\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\Admin\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\Admin\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Admin\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\Admin\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Admin\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-picocontainer\6.8.1\cucumber-picocontainer-6.8.1.jar;C:\Users\Admin\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\Admin\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\Admin\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Admin\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\Admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Admin"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire8581665296990745446\surefirebooter2197018088302750619.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire7351186541572243624\surefirebooter5360963140023774863.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,15 +62,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Add new Customer&quot;, &quot;Optional[Customers]&quot;](1)" classname="com.runner.RunnerClass" time="32.972">
-    <system-out><![CDATA[01-25-2023 18:38:12 BaseClass.java INFO  [main] base.BaseClass 28 - ::::Maximizing Window::::
-01-25-2023 18:38:12 BaseClass.java INFO  [main] base.BaseClass 33 - :::::Applying Waits::::
-01-25-2023 18:38:12 Hooks.java INFO  [main] base.BaseClass 17 - Scenario Executing Start :-Add new Customer
-01-25-2023 18:38:21 LoginStep.java INFO  [main] base.BaseClass 37 - After login Title is  :- Dashboard / nopCommerce administration
-01-25-2023 18:38:21 CustomerAddStep.java INFO  [main] base.BaseClass 21 - Title of the page :- Dashboard / nopCommerce administration
-01-25-2023 18:38:26 CustomerAddStep.java INFO  [main] base.BaseClass 35 - Title of the page :- Add a new customer / nopCommerce administration
-01-25-2023 18:38:30 PageUtility.java INFO  [main] base.BaseClass 85 - Dropdown Total element count :- 3
-01-25-2023 18:38:36 CustomerAddStep.java INFO  [main] base.BaseClass 74 - Actual message is display :- John Smith
+  <testcase name="runScenario[&quot;Add new Customer&quot;, &quot;Optional[Customers]&quot;](1)" classname="com.runner.RunnerClass" time="33.085">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+]]></failure>
+    <system-out><![CDATA[01-27-2023 14:33:25 BaseClass.java INFO  [main] base.BaseClass 31 - ::::Maximizing Window::::
+01-27-2023 14:33:25 BaseClass.java INFO  [main] base.BaseClass 36 - :::::Applying Waits::::
+01-27-2023 14:33:26 Hooks.java INFO  [main] base.BaseClass 18 - Scenario Executing Start :-Add new Customer
+01-27-2023 14:33:36 LoginStep.java INFO  [main] base.BaseClass 38 - After login Title is  :- Dashboard / nopCommerce administration
+01-27-2023 14:33:36 CustomerAddStep.java INFO  [main] base.BaseClass 21 - Title of the page :- Dashboard / nopCommerce administration
+01-27-2023 14:33:44 CustomerAddStep.java INFO  [main] base.BaseClass 35 - Title of the page :- Add a new customer / nopCommerce administration
+01-27-2023 14:33:48 PageUtility.java INFO  [main] base.BaseClass 85 - Dropdown Total element count :- 3
+
+01-27-2023 14:33:54 CustomerAddStep.java INFO  [main] base.BaseClass 74 - Actual message is display :- John Smith
 Logout
 Dashboard
 Catalog
@@ -89,154 +92,103 @@ Configuration
 System
 Reports
 Help
-×
-The new customer has been added successfully.
-Customers
-Add new
-Export
-  Search
+Add a new customer back to customer list
+Save
+Save and Continue Edit
+Email is already registered
+Customer info
 Email
+Password
 First name
 Last name
+Gender
+Male
+Female
 Date of birth
-Month
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-Day
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-Registration date from
-Registration date to
-Last activity from
-Last activity to
-Company
-IP address
+Company name
+Is tax exempt
+Newsletter
 Customer roles
 Registered
-Search
-Learn more about customers
-Email Name Customer roles Company name Active Edit
-RaOne@gmail.com RaOne Pathan Registered Berojgar Bharat Pvt Ltd Edit
-kiyjcycyhjc676008@gmail.com Virat Kohli Registered Indian Cricket Team Edit
-victoria_victoria@nopCommerce.com Victoria Terces Registered Edit
-brenda_lindgren@nopCommerce.com Brenda Lindgren Registered Edit
-james_pan@nopCommerce.com James Pan Registered Edit
-arthur_holmes@nopCommerce.com Arthur Holmes Registered Edit
-steve_gates@nopCommerce.com Steve Gates Registered Edit
-admin@yourStore.com John Smith Administrators, Forum Moderators, Registered Edit
-1
-Show
-7
-15
-20
-50
-100
-items
-1-8 of 8 items
+*
+Manager of vendor
+Not a vendor
+Vendor 1
+Vendor 2
+Note: if you have a vendor associated with this customer, then also ensure it is in "Vendors" customer role.
+Active
+Admin comment
+This is for automation
 Powered by nopCommerce
-Wednesday, January 25, 2023 5:08 AM
+Friday, January 27, 2023 1:03 AM
 nopCommerce version 4.60.0
-Scenario Executing Finish :-Add new Customer
+01-27-2023 14:33:54 Hooks.java INFO  [main] base.BaseClass 30 - Scenario Executing Finish :-Add new Customer
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 15418
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 24985
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1674652092.706][WARNING]: This version of ChromeDriver has not been tested with Chrome version 109.
-Jan 25, 2023 6:38:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1674810205.553][WARNING]: This version of ChromeDriver has not been tested with Chrome version 109.
+Jan 27, 2023 2:33:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Successful Login with Valid Credentials&quot;, &quot;Optional[Login Page]&quot;](2)" classname="com.runner.RunnerClass" time="10.923">
-    <system-out><![CDATA[01-25-2023 18:38:44 BaseClass.java INFO  [main] base.BaseClass 28 - ::::Maximizing Window::::
-01-25-2023 18:38:44 BaseClass.java INFO  [main] base.BaseClass 33 - :::::Applying Waits::::
-01-25-2023 18:38:44 Hooks.java INFO  [main] base.BaseClass 17 - Scenario Executing Start :-Successful Login with Valid Credentials
-01-25-2023 18:38:51 LoginStep.java INFO  [main] base.BaseClass 37 - After login Title is  :- Dashboard / nopCommerce administration
-01-25-2023 18:38:53 LoginStep.java INFO  [main] base.BaseClass 50 - After logout Title is :- Your store. Login
-01-25-2023 18:38:53 LoginStep.java INFO  [main] base.BaseClass 37 - After login Title is  :- Your store. Login
-Scenario Executing Finish :-Successful Login with Valid Credentials
+  <testcase name="runScenario[&quot;Successful Login with Valid Credentials&quot;, &quot;Optional[Login Page]&quot;](2)" classname="com.runner.RunnerClass" time="12.369">
+    <system-out><![CDATA[01-27-2023 14:33:56 BaseClass.java INFO  [main] base.BaseClass 31 - ::::Maximizing Window::::
+01-27-2023 14:33:56 BaseClass.java INFO  [main] base.BaseClass 36 - :::::Applying Waits::::
+01-27-2023 14:33:56 Hooks.java INFO  [main] base.BaseClass 18 - Scenario Executing Start :-Successful Login with Valid Credentials
+01-27-2023 14:34:05 LoginStep.java INFO  [main] base.BaseClass 38 - After login Title is  :- Dashboard / nopCommerce administration
+01-27-2023 14:34:06 LoginStep.java INFO  [main] base.BaseClass 51 - After logout Title is :- Your store. Login
+01-27-2023 14:34:06 LoginStep.java INFO  [main] base.BaseClass 38 - After login Title is  :- Your store. Login
+01-27-2023 14:34:06 Hooks.java INFO  [main] base.BaseClass 30 - Scenario Executing Finish :-Successful Login with Valid Credentials
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 35252
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 36037
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1674652124.264][WARNING]: This version of ChromeDriver has not been tested with Chrome version 109.
-Jan 25, 2023 6:38:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1674810236.643][WARNING]: This version of ChromeDriver has not been tested with Chrome version 109.
+Jan 27, 2023 2:33:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+[1674810247.036][SEVERE]: Unable to receive message from renderer
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Login Data Driven&quot;, &quot;Optional[Login Page]&quot;](3)" classname="com.runner.RunnerClass" time="10.427">
-    <system-out><![CDATA[01-25-2023 18:38:55 BaseClass.java INFO  [main] base.BaseClass 28 - ::::Maximizing Window::::
-01-25-2023 18:38:55 BaseClass.java INFO  [main] base.BaseClass 33 - :::::Applying Waits::::
-01-25-2023 18:38:55 Hooks.java INFO  [main] base.BaseClass 17 - Scenario Executing Start :-Login Data Driven
-01-25-2023 18:39:01 LoginStep.java INFO  [main] base.BaseClass 37 - After login Title is  :- Dashboard / nopCommerce administration
-01-25-2023 18:39:03 LoginStep.java INFO  [main] base.BaseClass 50 - After logout Title is :- Your store. Login
-Scenario Executing Finish :-Login Data Driven
+  <testcase name="runScenario[&quot;Login Data Driven&quot;, &quot;Optional[Login Page]&quot;](3)" classname="com.runner.RunnerClass" time="29.709">
+    <system-out><![CDATA[01-27-2023 14:34:09 BaseClass.java INFO  [main] base.BaseClass 31 - ::::Maximizing Window::::
+01-27-2023 14:34:09 BaseClass.java INFO  [main] base.BaseClass 36 - :::::Applying Waits::::
+01-27-2023 14:34:09 Hooks.java INFO  [main] base.BaseClass 18 - Scenario Executing Start :-Login Data Driven
+01-27-2023 14:34:18 LoginStep.java INFO  [main] base.BaseClass 38 - After login Title is  :- Dashboard / nopCommerce administration
+01-27-2023 14:34:20 LoginStep.java INFO  [main] base.BaseClass 51 - After logout Title is :- Your store. Login
+01-27-2023 14:34:20 Hooks.java INFO  [main] base.BaseClass 30 - Scenario Executing Finish :-Login Data Driven
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 44243
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 36118
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1674652135.095][WARNING]: This version of ChromeDriver has not been tested with Chrome version 109.
-Jan 25, 2023 6:38:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1674810249.029][WARNING]: This version of ChromeDriver has not been tested with Chrome version 109.
+Jan 27, 2023 2:34:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+[1674810264.622][WARNING]: Timed out connecting to Chrome, retrying...
+[1674810272.728][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Login Data Driven&quot;, &quot;Optional[Login Page]&quot;](4)" classname="com.runner.RunnerClass" time="4.674">
+  <testcase name="runScenario[&quot;Login Data Driven&quot;, &quot;Optional[Login Page]&quot;](4)" classname="com.runner.RunnerClass" time="22.151">
     <failure message="expected [Dashboard / nopCommerce administration] but found [Your store. Login]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
 ]]></failure>
-    <system-out><![CDATA[01-25-2023 18:39:05 BaseClass.java INFO  [main] base.BaseClass 28 - ::::Maximizing Window::::
-01-25-2023 18:39:05 BaseClass.java INFO  [main] base.BaseClass 33 - :::::Applying Waits::::
-01-25-2023 18:39:05 Hooks.java INFO  [main] base.BaseClass 17 - Scenario Executing Start :-Login Data Driven
-01-25-2023 18:39:07 LoginStep.java INFO  [main] base.BaseClass 37 - After login Title is  :- Your store. Login
-Scenario Executing Finish :-Login Data Driven
+    <system-out><![CDATA[01-27-2023 14:34:38 BaseClass.java INFO  [main] base.BaseClass 31 - ::::Maximizing Window::::
+01-27-2023 14:34:38 BaseClass.java INFO  [main] base.BaseClass 36 - :::::Applying Waits::::
+01-27-2023 14:34:38 Hooks.java INFO  [main] base.BaseClass 18 - Scenario Executing Start :-Login Data Driven
+01-27-2023 14:34:42 LoginStep.java INFO  [main] base.BaseClass 38 - After login Title is  :- Your store. Login
+01-27-2023 14:34:42 Hooks.java INFO  [main] base.BaseClass 30 - Scenario Executing Finish :-Login Data Driven
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 5661
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 45995
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1674652145.489][WARNING]: This version of ChromeDriver has not been tested with Chrome version 109.
-Jan 25, 2023 6:39:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1674810278.762][WARNING]: This version of ChromeDriver has not been tested with Chrome version 109.
+Jan 27, 2023 2:34:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+[1674810286.790][WARNING]: Timed out connecting to Chrome, retrying...
+[1674810294.906][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
   </testcase>
 </testsuite>

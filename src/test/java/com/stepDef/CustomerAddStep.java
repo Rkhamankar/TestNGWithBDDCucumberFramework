@@ -55,7 +55,7 @@ public class CustomerAddStep extends BaseClass {
 	   cap.setFName("RaOne");
 	   cap.setLName("Pathan");
 	   cap.setDob("12/31/1996");//formate:- mm/dd/yyyy
-	   cap.setCompanyName("Berojgar Bharat Pvt Ltd");
+	   cap.setCompanyName("India Pvt Ltd");
 	   cap.setAdminContent("This is for automation");
 	}
 

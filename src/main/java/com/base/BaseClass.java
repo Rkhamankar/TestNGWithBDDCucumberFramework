@@ -12,7 +12,7 @@ import com.utility.Util;
 
 
 public class BaseClass {
-	// I use LocalThread class for storing W
+	// I use LocalThread class for storing WebDriver and using set() and get () method
    public static ThreadLocal<WebDriver> webDriver = new ThreadLocal<WebDriver>();
   
    public static WebDriver driver=null;

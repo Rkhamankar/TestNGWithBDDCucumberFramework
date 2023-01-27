@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,6 +102,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.runner.RunnerClass" hash-for-method="runScenario(&quot;Add new Customer&quot;, &quot;Optional[Customers]&quot;)">runScenario("Add new Customer", "Optional[Customers]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.runner.RunnerClass" hash-for-method="runScenario(&quot;Login Data Driven&quot;, &quot;Optional[Login Page]&quot;)">runScenario("Login Data Driven", "Optional[Login Page]")</a> <!-- method navigator-link -->
@@ -118,17 +123,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.runner.RunnerClass" hash-for-method="runScenario(&quot;Add new Customer&quot;, &quot;Optional[Customers]&quot;)">runScenario("Add new Customer", "Optional[Customers]")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.runner.RunnerClass" hash-for-method="runScenario(&quot;Successful Login with Valid Credentials&quot;, &quot;Optional[Login Page]&quot;)">runScenario("Successful Login with Valid Credentials", "Optional[Login Page]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.runner.RunnerClass" hash-for-method="runScenario(&quot;Login Data Driven&quot;, &quot;Optional[Login Page]&quot;)">runScenario("Login Data Driven", "Optional[Login Page]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.runner.RunnerClass" hash-for-method="runScenario(&quot;Successful Login with Valid Credentials&quot;, &quot;Optional[Login Page]&quot;)">runScenario("Successful Login with Valid Credentials", "Optional[Login Page]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -151,12 +151,27 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;Add new Customer&quot;, &quot;Optional[Customers]&quot;)">
+                  </a> <!-- runScenario("Add new Customer", "Optional[Customers]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new Customer", "Optional[Customers]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.stepDef.CustomerAddStep.user_can_view_confirmation_message(CustomerAddStep.java:76)
+	at ✽.User can view confirmation message &quot;The new customer has been added successfully.&quot;(file:///C:/Users/Admin/eclipse-OJT(SELENIUM)/TestNGWithCucumber/src/test/resources/features/Customers.feature:16)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;Login Data Driven&quot;, &quot;Optional[Login Page]&quot;)">
                   </a> <!-- runScenario("Login Data Driven", "Optional[Login Page]") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Login Data Driven", "Optional[Login Page]")</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
-	at com.stepDef.LoginStep.page_title_should_be(LoginStep.java:39)
+	at com.stepDef.LoginStep.page_title_should_be(LoginStep.java:40)
 	at ✽.Page title should be &quot;Dashboard / nopCommerce administration&quot;(file:///C:/Users/Admin/eclipse-OJT(SELENIUM)/TestNGWithCucumber/src/test/resources/features/Login.feature:28)
 ... Removed 6 stack frames
 </div> <!-- stack-trace -->
@@ -174,10 +189,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Add new Customer&quot;, &quot;Optional[Customers]&quot;)">
-                  </a> <!-- runScenario("Add new Customer", "Optional[Customers]") -->
+                  <a name="runScenario(&quot;Successful Login with Valid Credentials&quot;, &quot;Optional[Login Page]&quot;)">
+                  </a> <!-- runScenario("Successful Login with Valid Credentials", "Optional[Login Page]") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Add new Customer", "Optional[Customers]")</span>
+                  <span class="parameters">("Successful Login with Valid Credentials", "Optional[Login Page]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -188,16 +203,6 @@
                   </a> <!-- runScenario("Login Data Driven", "Optional[Login Page]") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Login Data Driven", "Optional[Login Page]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Successful Login with Valid Credentials&quot;, &quot;Optional[Login Page]&quot;)">
-                  </a> <!-- runScenario("Successful Login with Valid Credentials", "Optional[Login Page]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Successful Login with Valid Credentials", "Optional[Login Page]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -268,24 +273,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.runner.RunnerClass')
-data.setCell(0, 3, 32908);
+data.setCell(0, 3, 33019);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'com.runner.RunnerClass')
-data.setCell(1, 3, 10965);
+data.setCell(1, 3, 29719);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'com.runner.RunnerClass')
-data.setCell(2, 3, 10440);
+data.setCell(2, 3, 22150);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'com.runner.RunnerClass')
-data.setCell(3, 3, 4653);
+data.setCell(3, 3, 12389);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -317,26 +322,28 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">runScenario("Add new Customer", "Optional[Customers]")</span>
-                <span class="method-start">1067 ms</span>
+                <span class="method-start">1370 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Successful Login with Valid Credentials", "Optional[Login Page]")</span>
-                <span class="method-start">33980 ms</span>
+                <span class="method-start">34405 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login Data Driven", "Optional[Login Page]")</span>
-                <span class="method-start">44945 ms</span>
+                <span class="method-start">46795 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Login Data Driven", "Optional[Login Page]")</span>
-                <span class="method-start">55386 ms</span>
+                <span class="method-start">76515 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">60062 ms</span>
+                <span class="method-start">98680 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

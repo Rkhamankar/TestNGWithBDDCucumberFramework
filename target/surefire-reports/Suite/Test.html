@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jan 25 18:38:08 IST 2023</td>
+<td>Started on:</td><td>Fri Jan 27 14:33:20 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>65 seconds (65897 ms)</td>
+<tr><td>Total time:</td><td>105 seconds (105299 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,22 +75,38 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.runner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add new Customer", "Optional[Customers]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.stepDef.CustomerAddStep.user_can_view_confirmation_message(CustomerAddStep.java:76)
+	at ?.User can view confirmation message &quot;The new customer has been added successfully.&quot;(file:///C:/Users/Admin/eclipse-OJT(SELENIUM)/TestNGWithCucumber/src/test/resources/features/Customers.feature:16)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1751753651", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1751753651'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.stepDef.CustomerAddStep.user_can_view_confirmation_message(CustomerAddStep.java:76)
+	at ?.User can view confirmation message &quot;The new customer has been added successfully.&quot;(file:///C:/Users/Admin/eclipse-OJT(SELENIUM)/TestNGWithCucumber/src/test/resources/features/Customers.feature:16)
+</pre></div></td>
+<td>33</td>
+<td>com.runner.RunnerClass@184f6be2</td></tr>
+<tr>
 <td title='com.runner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Data Driven", "Optional[Login Page]"</td>
 <td><div><pre>java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
-	at com.stepDef.LoginStep.page_title_should_be(LoginStep.java:39)
+	at com.stepDef.LoginStep.page_title_should_be(LoginStep.java:40)
 	at ?.Page title should be &quot;Dashboard / nopCommerce administration&quot;(file:///C:/Users/Admin/eclipse-OJT(SELENIUM)/TestNGWithCucumber/src/test/resources/features/Login.feature:28)
-... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace246168102", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace246168102'><pre>java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace729375394", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace729375394'><pre>java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
-	at com.stepDef.LoginStep.page_title_should_be(LoginStep.java:39)
+	at com.stepDef.LoginStep.page_title_should_be(LoginStep.java:40)
 	at ?.Page title should be &quot;Dashboard / nopCommerce administration&quot;(file:///C:/Users/Admin/eclipse-OJT(SELENIUM)/TestNGWithCucumber/src/test/resources/features/Login.feature:28)
 </pre></div></td>
-<td>4</td>
+<td>22</td>
 <td>com.runner.RunnerClass@184f6be2</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -101,19 +117,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.runner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add new Customer", "Optional[Customers]"</td>
-<td></td>
-<td>32</td>
-<td>com.runner.RunnerClass@184f6be2</td></tr>
-<tr>
 <td title='com.runner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login with Valid Credentials", "Optional[Login Page]"</td>
 <td></td>
-<td>10</td>
+<td>12</td>
 <td>com.runner.RunnerClass@184f6be2</td></tr>
 <tr>
 <td title='com.runner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Data Driven", "Optional[Login Page]"</td>
 <td></td>
-<td>10</td>
+<td>29</td>
 <td>com.runner.RunnerClass@184f6be2</td></tr>
 </table><p>
 </body>

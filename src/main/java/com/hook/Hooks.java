@@ -27,7 +27,7 @@ public class Hooks extends BaseClass {
         if(scenario.isFailed()) {
 		scenario.attach(Util.takeScreenShot(), "image/png", scenario.getName());
         }
-        System.out.println("Scenario Executing Finish :-"+scenario.getName());
+        log.info("Scenario Executing Finish :-"+scenario.getName());
 		tearDown();
 	}
 }
