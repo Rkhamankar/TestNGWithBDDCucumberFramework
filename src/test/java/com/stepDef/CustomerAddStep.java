@@ -44,7 +44,7 @@ public class CustomerAddStep extends BaseClass {
 	@When("User enter customer info")
 	public void user_enter_customer_info() throws Exception {
 	    
-	   cap.setEmail("RaOne@gmail.com");
+	   cap.setEmail("Abc@gmail.com");
 	   
 	   cap.setPassword("Ra12345");
 	   
@@ -52,7 +52,7 @@ public class CustomerAddStep extends BaseClass {
 	   
 	   cap.setManagerOfVendor("Vendor 2");
 	   cap.setGender("Male");
-	   cap.setFName("RaOne");
+	   cap.setFName("Shahrukh");
 	   cap.setLName("Pathan");
 	   cap.setDob("12/31/1996");//formate:- mm/dd/yyyy
 	   cap.setCompanyName("India Pvt Ltd");

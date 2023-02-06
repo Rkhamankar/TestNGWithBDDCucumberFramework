@@ -25,7 +25,7 @@ public class BaseClass {
 	{
 		if(Util.readProperties("browser").equalsIgnoreCase("chrome"))
 		{
-		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/chromedriver.exe");
 		driver = new ChromeDriver();
 		
 		log.info("::::Maximizing Window::::");
@@ -70,7 +70,12 @@ public class BaseClass {
 	
 	public static void tearDown()
 	{
+		log.info("::::Active Browser is close::::");
+		
 		webDriver.get().close();
+		
+		log.info("::::All Browser is quit::::");
+		
 	    webDriver.get().quit();
 	}
 

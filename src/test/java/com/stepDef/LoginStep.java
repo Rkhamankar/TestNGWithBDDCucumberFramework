@@ -12,6 +12,7 @@ public class LoginStep extends BaseClass {
 	LoginPage lp = new LoginPage();
 	
 	//Implementing all d step from feature file
+	
 	@Given("User launch application")
 	public void user_launch_application() {
 	    
@@ -42,8 +43,9 @@ public class LoginStep extends BaseClass {
 	}
 
 	@When("User click on Log out link")
-	public void user_click_on_log_out_link() {
+	public void user_click_on_log_out_link() throws Exception {
 	    
+		Thread.sleep(3000);
         lp.clickLogout();
 		
 		String pageTitle=webDriver.get().getTitle();

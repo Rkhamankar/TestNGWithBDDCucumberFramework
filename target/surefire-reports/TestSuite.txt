@@ -1,10 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 105.984 s <<< FAILURE! - in TestSuite
-com.runner.RunnerClass.runScenario["Add new Customer", "Optional[Customers]"](1)  Time elapsed: 33.085 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 157.901 s <<< FAILURE! - in TestSuite
+com.runner.RunnerClass.runScenario["Add new Customer", "Optional[Customers]"](1)  Time elapsed: 76.206 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F5BRIJ9', ip: '192.168.170.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 539a87e7217a6cef297763054be7d345
 
-com.runner.RunnerClass.runScenario["Login Data Driven", "Optional[Login Page]"](4)  Time elapsed: 22.151 s  <<< FAILURE!
+com.runner.RunnerClass.runScenario["Login Data Driven", "Optional[Login Page]"](4)  Time elapsed: 21.165 s  <<< FAILURE!
 java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
 

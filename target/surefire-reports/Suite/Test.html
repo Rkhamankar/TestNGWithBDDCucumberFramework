@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jan 27 14:33:20 IST 2023</td>
+<td>Started on:</td><td>Mon Feb 06 14:46:20 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>105 seconds (105299 ms)</td>
+<tr><td>Total time:</td><td>157 seconds (157111 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,27 +76,59 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.runner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add new Customer", "Optional[Customers]"</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.stepDef.CustomerAddStep.user_can_view_confirmation_message(CustomerAddStep.java:76)
-	at ?.User can view confirmation message &quot;The new customer has been added successfully.&quot;(file:///C:/Users/Admin/eclipse-OJT(SELENIUM)/TestNGWithCucumber/src/test/resources/features/Customers.feature:16)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1751753651", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1751753651'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at com.stepDef.CustomerAddStep.user_can_view_confirmation_message(CustomerAddStep.java:76)
-	at ?.User can view confirmation message &quot;The new customer has been added successfully.&quot;(file:///C:/Users/Admin/eclipse-OJT(SELENIUM)/TestNGWithCucumber/src/test/resources/features/Customers.feature:16)
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-F5BRIJ9&apos;, ip: &apos;192.168.170.224&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 539a87e7217a6cef297763054be7d345
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at com.utility.CustomizeMethod.sendKeys(CustomizeMethod.java:50)
+	at com.page.CustomerAddPage.setEmail(CustomerAddPage.java:41)
+	at com.stepDef.CustomerAddStep.user_enter_customer_info(CustomerAddStep.java:47)
+	at ?.User enter customer info(file:///C:/Users/Admin/eclipse-Main(Selenium)/TestNGWithCucumber/src/test/resources/features/Customers.feature:14)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace775174220", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace775174220'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-F5BRIJ9&apos;, ip: &apos;192.168.170.224&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 539a87e7217a6cef297763054be7d345
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at com.utility.CustomizeMethod.sendKeys(CustomizeMethod.java:50)
+	at com.page.CustomerAddPage.setEmail(CustomerAddPage.java:41)
+	at com.stepDef.CustomerAddStep.user_enter_customer_info(CustomerAddStep.java:47)
+	at ?.User enter customer info(file:///C:/Users/Admin/eclipse-Main(Selenium)/TestNGWithCucumber/src/test/resources/features/Customers.feature:14)
 </pre></div></td>
-<td>33</td>
+<td>76</td>
 <td>com.runner.RunnerClass@184f6be2</td></tr>
 <tr>
 <td title='com.runner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Data Driven", "Optional[Login Page]"</td>
 <td><div><pre>java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
 	at com.stepDef.LoginStep.page_title_should_be(LoginStep.java:40)
-	at ?.Page title should be &quot;Dashboard / nopCommerce administration&quot;(file:///C:/Users/Admin/eclipse-OJT(SELENIUM)/TestNGWithCucumber/src/test/resources/features/Login.feature:28)
-... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace729375394", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace729375394'><pre>java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
+	at ?.Page title should be &quot;Dashboard / nopCommerce administration&quot;(file:///C:/Users/Admin/eclipse-Main(Selenium)/TestNGWithCucumber/src/test/resources/features/Login.feature:28)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1943266645", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1943266645'><pre>java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -104,9 +136,9 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
 	at com.stepDef.LoginStep.page_title_should_be(LoginStep.java:40)
-	at ?.Page title should be &quot;Dashboard / nopCommerce administration&quot;(file:///C:/Users/Admin/eclipse-OJT(SELENIUM)/TestNGWithCucumber/src/test/resources/features/Login.feature:28)
+	at ?.Page title should be &quot;Dashboard / nopCommerce administration&quot;(file:///C:/Users/Admin/eclipse-Main(Selenium)/TestNGWithCucumber/src/test/resources/features/Login.feature:28)
 </pre></div></td>
-<td>22</td>
+<td>21</td>
 <td>com.runner.RunnerClass@184f6be2</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -119,12 +151,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.runner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login with Valid Credentials", "Optional[Login Page]"</td>
 <td></td>
-<td>12</td>
+<td>18</td>
 <td>com.runner.RunnerClass@184f6be2</td></tr>
 <tr>
 <td title='com.runner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Data Driven", "Optional[Login Page]"</td>
 <td></td>
-<td>29</td>
+<td>33</td>
 <td>com.runner.RunnerClass@184f6be2</td></tr>
 </table><p>
 </body>

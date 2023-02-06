@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="105299" started-at="2023-01-27T14:33:20 IST" finished-at="2023-01-27T14:35:06 IST">
+  <suite name="Suite" duration-ms="157111" started-at="2023-02-06T14:46:20 IST" finished-at="2023-02-06T14:48:57 IST">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@184f6be2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="105299" started-at="2023-01-27T14:33:20 IST" finished-at="2023-01-27T14:35:06 IST">
+    <test name="Test" duration-ms="157111" started-at="2023-02-06T14:46:20 IST" finished-at="2023-02-06T14:48:57 IST">
       <class name="com.runner.RunnerClass">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.RunnerClass@184f6be2]" name="setUpClass" is-config="true" duration-ms="1354" started-at="2023-01-27T14:33:20 IST" finished-at="2023-01-27T14:33:22 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.RunnerClass@184f6be2]" name="setUpClass" is-config="true" duration-ms="1180" started-at="2023-02-06T14:46:20 IST" finished-at="2023-02-06T14:46:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@184f6be2]" name="runScenario" duration-ms="33019" started-at="2023-01-27T14:33:22 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-27T14:33:55 IST">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@184f6be2]" name="runScenario" duration-ms="76127" started-at="2023-02-06T14:46:21 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-06T14:47:37 IST">
           <params>
             <param index="0">
               <value>
@@ -27,25 +27,47 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[element not interactable
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F5BRIJ9', ip: '192.168.170.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 539a87e7217a6cef297763054be7d345]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at com.stepDef.CustomerAddStep.user_can_view_confirmation_message(CustomerAddStep.java:76)
-at ✽.User can view confirmation message "The new customer has been added successfully."(file:///C:/Users/Admin/eclipse-OJT(SELENIUM)/TestNGWithCucumber/src/test/resources/features/Customers.feature:16)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F5BRIJ9', ip: '192.168.170.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 539a87e7217a6cef297763054be7d345
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+at com.utility.CustomizeMethod.sendKeys(CustomizeMethod.java:50)
+at com.page.CustomerAddPage.setEmail(CustomerAddPage.java:41)
+at com.stepDef.CustomerAddStep.user_enter_customer_info(CustomerAddStep.java:47)
+at ✽.User enter customer info(file:///C:/Users/Admin/eclipse-Main(Selenium)/TestNGWithCucumber/src/test/resources/features/Customers.feature:14)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@184f6be2]" name="runScenario" duration-ms="12389" started-at="2023-01-27T14:33:55 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-27T14:34:07 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@184f6be2]" name="runScenario" duration-ms="18674" started-at="2023-02-06T14:47:37 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-06T14:47:56 IST">
           <params>
             <param index="0">
               <value>
@@ -61,7 +83,7 @@ at ✽.User can view confirmation message "The new customer has been added succe
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@184f6be2]" name="runScenario" duration-ms="29719" started-at="2023-01-27T14:34:07 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-27T14:34:37 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@184f6be2]" name="runScenario" duration-ms="33945" started-at="2023-02-06T14:47:56 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-06T14:48:30 IST">
           <params>
             <param index="0">
               <value>
@@ -77,7 +99,7 @@ at ✽.User can view confirmation message "The new customer has been added succe
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@184f6be2]" name="runScenario" duration-ms="22150" started-at="2023-01-27T14:34:37 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-27T14:34:59 IST">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@184f6be2]" name="runScenario" duration-ms="21163" started-at="2023-02-06T14:48:30 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-06T14:48:51 IST">
           <params>
             <param index="0">
               <value>
@@ -103,14 +125,14 @@ at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
 at com.stepDef.LoginStep.page_title_should_be(LoginStep.java:40)
-at ✽.Page title should be "Dashboard / nopCommerce administration"(file:///C:/Users/Admin/eclipse-OJT(SELENIUM)/TestNGWithCucumber/src/test/resources/features/Login.feature:28)
+at ✽.Page title should be "Dashboard / nopCommerce administration"(file:///C:/Users/Admin/eclipse-Main(Selenium)/TestNGWithCucumber/src/test/resources/features/Login.feature:28)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.RunnerClass@184f6be2]" name="tearDownClass" is-config="true" duration-ms="6590" started-at="2023-01-27T14:34:59 IST" finished-at="2023-01-27T14:35:06 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.RunnerClass@184f6be2]" name="tearDownClass" is-config="true" duration-ms="5954" started-at="2023-02-06T14:48:51 IST" finished-at="2023-02-06T14:48:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
